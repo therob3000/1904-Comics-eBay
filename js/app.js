@@ -1,5 +1,5 @@
 var clip = new ZeroClipboard( document.getElementById("copy-button"), {
-  moviePath: "zeroclipboard.swf"
+  moviePath: "js/zeroclipboard.swf"
 } );
 clip.on('mousedown',function() {
   clip.setText(document.getElementById('copy-content').value);
